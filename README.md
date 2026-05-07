@@ -23,7 +23,7 @@ Go to the FONT FAMILY section in the line code \#450 and change the fonts to the
 
 ### HOW TO CHANGE THE BANNER IMAGE
 
-Go to HEADER BANNER under the MAIN PAGE section (line \#575), and change the url between the quotes for one of these:
+Go to HEADER BANNER under the MAIN PAGE section (line \#580), and change the url between the quotes for one of these:
 1. Version 2: https://i.ibb.co/TMWmpBDv/Under-The-Red-Hood-Full-4.png
 2. Version 3: https://i.ibb.co/KxSHpGv4/Under-The-Red-Hood-Full-9.png
 
