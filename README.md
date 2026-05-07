@@ -2,6 +2,8 @@
 
 Ao3 Site Skin inspired by Jason Todd/Red Hood
 
+<img width="1349" height="391" alt="1" src="https://github.com/user-attachments/assets/0a19ba46-fd4e-4760-9fcc-9763045d7d2f" />
+
 ### HOW TO APPLY A SITE SKIN ON AO3
 
 1. Go to your dashboard.
@@ -26,6 +28,10 @@ Go to the FONT FAMILY section in the line code \#447 and change the fonts to the
 Go to HEADER BANNER under the MAIN PAGE section (line \#580), and change the url between the quotes for one of these:
 1. Version 2: https://i.ibb.co/TMWmpBDv/Under-The-Red-Hood-Full-4.png
 2. Version 3: https://i.ibb.co/KxSHpGv4/Under-The-Red-Hood-Full-9.png
+
+<img width="1349" height="411" alt="2" src="https://github.com/user-attachments/assets/79e3a4c7-85ed-4c2b-88a3-bdb9eaba7d5a" />
+<img width="1349" height="383" alt="3" src="https://github.com/user-attachments/assets/2d7617e5-dcfc-4598-a806-632cab252633" />
+
 
 ### CHANGING ANYTHING ELSE
 
