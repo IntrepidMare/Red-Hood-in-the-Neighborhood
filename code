@@ -261,6 +261,8 @@ label.action:hover,
   color: var(--color3);
 }
 
+
+header h1.heading a::before,
 span.series .divider, 
 #footer .heading,
 .home .primary, 
@@ -291,10 +293,6 @@ fieldset dl dt.required label,
 a.cloud3,
 #admin_users_table th a:visited {
   color: var(--color6);
-}
-
-header h1.heading a::before {
-  color: var(--color7)
 }
 
 body,
