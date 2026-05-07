@@ -1,29 +1,32 @@
-# Red-Hood-in-the-Neighborhood
-Ao3 Site Skin inspired by Red Hood
+# Red Hood in the Neighborhood
 
-### APPLYING THE SKIN ON Ao3
+Ao3 Site Skin inspired by Jason Todd/Red Hood
+
+### HOW TO APPLY A SKIN ON AO3
 
 1. Go to your dashboard.
-2. Select "Skins" from the menu found at the sidebar or at the top on a mobile device.  
+2. Select "Skins" from the menu found in the sidebar or at the top on a mobile device.  
 3. On the Skins page, select the "Create Site Skin" button towards the top right of the page on desktop (or below the My Site Skins heading on mobile). 
 4. Enter the CSS code. 
-5. Enter a title for your skin (must be unique, so you can add your username or a number).
+5. Enter a title for your skin (must be unique, so you can add your username or a number to the title).
 6. Select "Submit" at the bottom... And voila! You have a new skin!
 
 ### USING FEATURED FONTS
 
-The following fonts must be installed on your computer/device (Downloadable from DaFont, Google Fonts, or similar sites). Otherwise, you won't see any changing from the typical font on the archive.
-
+The following fonts must be installed on your computer/device (Downloadable from Google Fonts or similar sites). Otherwise, you won't see any changing from the typical font on the archive.
 1. Architects Daughter
 2. Bangers
 
-### CHANGING THE FONTS
+### HOW TO CHANGE TO DIFFERENT FONTS
 
-Go to FONT FAMILY section in the line code \#450 and change the fonts to the ones of your liking. I recommend leaving \"font-family: "Nixie One", monospace" alone because that's only for the work's update date and such, but you're free to change it as well if you desire.
+Go to the FONT FAMILY section in the line code \#450 and change the fonts to the ones of your liking. I suggest keeping the "font-family: "Nixie One", monospace" as is, since it's designated for the works update dates and such, but you can change it if you wish.
 
-### CHAGING THE BANNER 
+### HOW TO CHANGE THE BANNER IMAGE
 
+Go to HEADER BANNER under the MAIN PAGE section (line \#575), and change the url between the quotes for one of these:
+1. Version 2: https://i.ibb.co/5pkJ4Jt/Under-The-Red-Hood-Full-10.png
+2. Version 3: https://i.ibb.co/TMWmpBDv/Under-The-Red-Hood-Full-4.png
 
-###CHANGING ANYTHING ELSE
+### CHANGING ANYTHING ELSE
 
-Feel free to change colors or anything you like to make it better for you
+Please DO copy and reuse and modify this code any way you like!
