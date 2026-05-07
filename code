@@ -570,6 +570,15 @@ a.rss span {
   background-size: 200px 820px !important;
 }
 
+#header .logo {
+  float: left;
+  height: 42px;
+  background: url("https://i.ibb.co/CK813g3r/red-hood-logo-small.png");
+  width: 0 !important;
+  height: 0 !important;
+  padding: 40px 55px 0px 45px;
+  background-repeat: no-repeat;
+}
                 /* MAIN PAGE */
 
     /* HEADER BANNER */
@@ -797,7 +806,7 @@ button:focus {
 header h1.heading a::before {
   margin-left: 0.35em;
   content: "HOLY ARCHIVE, BATMAN!";
-  text-shadow: 2px 2px 2px var(--color4);
+  text-shadow: -2px 0 var(--color2), 0 2px var(--color2), 2px 0 var(--color2), 0 -2px var(--color2); 
 }
 
 #header h1.heading span {
