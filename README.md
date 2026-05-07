@@ -2,7 +2,7 @@
 
 Ao3 Site Skin inspired by Jason Todd/Red Hood
 
-### HOW TO APPLY A SKIN ON AO3
+### HOW TO APPLY A SITE SKIN ON AO3
 
 1. Go to your dashboard.
 2. Select "Skins" from the menu found in the sidebar or at the top on a mobile device.  
@@ -19,7 +19,7 @@ The following fonts must be installed on your computer/device (Downloadable from
 
 ### HOW TO CHANGE TO DIFFERENT FONTS
 
-Go to the FONT FAMILY section in the line code \#450 and change the fonts to the ones of your liking. I suggest keeping the "font-family: "Nixie One", monospace" as is, since it's designated for the works update dates and such, but you can change it if you wish.
+Go to the FONT FAMILY section in the line code \#447 and change the fonts to the ones of your liking. I suggest keeping the "font-family: "Nixie One", monospace" as is, since it's designated for the works update dates and such, but you can change it if you wish.
 
 ### HOW TO CHANGE THE BANNER IMAGE
 
