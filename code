@@ -1,0 +1,2200 @@
+:root {
+  --bg: #260503;
+  --bg2: #342727;
+  --color1: #830514;
+  --color2: #020C0D;
+  --color3: #112733;
+  --color4: #7891BA;
+  --color5: #072332;
+  --color6: #42494A;
+  --color7: #ff0000;
+  --font: #dfbaba;
+}
+
+            /*  ------------ BACKGROUND COLORS -----------  */
+
+body,
+.toggled form,
+.dynamic form,
+.secondary,
+.dropdown,
+#greeting .menu,
+input:focus,
+select:focus,
+textarea:focus,
+.autocomplete input,
+.statistics .index li,
+.blurb h4 a:link,
+.blurb h4 img {
+  background: var(--bg);
+}
+
+
+form dd.required,
+form dt.required,
+.splash .favorite li:nth-of-type(odd) a,
+#header .menu,
+#small_login,
+#header .user a:hover,
+#header .user a:focus,
+#greeting li a:visited,
+#greeting .dropdown .menu a,
+header#header.region.collection h2.collections,
+#dashboard a,
+#dashboard span,
+fieldset,
+form dl,
+fieldset dl dl,
+fieldset fieldset fieldset,
+fieldset fieldset dl dl,
+option:nth-child(n):checked,
+dd.hideme,
+form blockquote.userstuff,
+.autocomplete .dropdown ul li,
+.ui-sortable li,
+#ui-datepicker-div,
+.qtip-content,
+#modal,
+form.verbose legend,
+.verbose form legend,
+.toggled form,
+.dynamic form,
+.own,
+.draft,
+.draft .wrapper,
+.unread,
+.child,
+.unwrangled,
+.unreviewed,
+.nominations .approved,
+.listbox .index,
+.item dl.visibility,
+.thread .even,
+.nomination dt,
+.event .userstuff,
+.announcement .thermometer .track,
+.statistics .index li:nth-of-type(even),
+table,
+thead td,
+tbody tr,
+th,
+col.name {
+  background: var(--bg2);
+}
+
+th:hover,
+#header #search .button,
+#dashboard .current,
+fieldset fieldset,
+fieldset dl dl,
+form blockquote.userstuff,
+input,
+textarea,
+select,
+.autocomplete div.dropdown ul,
+dl.index dd,
+.listbox,
+fieldset fieldset.listbox,
+.comment h4.byline,
+tr:hover {
+  background: var(--color6);
+}
+
+#header .primary,
+#header .primary .menu a,
+#greeting li a,  
+#dashboard a:hover,
+#footer,
+.ui-sortable li:hover,
+.ui-draggable form,
+.ui-datepicker tr:hover,
+.ui-datepicker td:hover,
+.actions a,
+.actions a:link,
+.action,
+.action:link,
+.actions button,
+.actions input,
+input[type="submit"],
+button,
+.current,
+.actions label,
+.actions label.disabled,
+.secondary,
+span.unread,
+.replied,
+span.claimed,
+.actions span.defaulted {
+  background: var(--color1);
+}
+
+#header .actions a:hover,
+#header .actions a:focus,
+#header .dropdown:hover a,
+#header .open a,
+#header .primary .menu,
+#footer a:hover,
+#footer a:focus,
+.nominations .rejected {
+  background: var(--color2);
+}
+
+.splash .favorite a:hover,
+.splash .favorite a:focus,
+.autocomplete ul b,
+.ui-datepicker table,
+dl.stats dd::after,
+.required,
+.error,
+.alert.flash,
+.notice,
+.comment_notice,
+.kudos_notice,
+ul.notes,
+.caution,
+.error,
+.comment_error,
+.kudos_error,
+.alert.flash,
+.blurb .header .heading a:hover,
+h3.byline.heading a:hover {
+  background: var(--color4);
+}
+
+.splash .favorite li:nth-of-type(odd) a:hover,
+.splash .favorite li:nth-of-type(odd) a:focus,
+#header .dropdown .menu a:hover,
+#header .dropdown .menu a:focus,
+.LV_invalid,
+.actions a:active,
+.current,
+a.current,
+.current a:visited,
+dl.index p.actions,
+a.tag:hover,
+.listbox .heading a.tag:visited:hover,
+h5.fandoms.heading a.tag:hover,
+ol.index.group li a:hover,
+dl.stats a:hover,
+dd.relationship.tags a:hover,
+dd.series span.series a.previous:hover,
+dd.series span.series a.next:hover,
+span.series span.position a:hover,
+ul li span.series a.previous:hover,
+ul li span.series a.next:hover,
+.tag.home.profile p a:hover,
+.error,
+.comment_error,
+.kudos_error,
+.alert.flash {
+  background: var(--color6);
+}
+
+                /*  --------------- FONT COLORS ------------------  */
+
+#dashboard a:hover,
+.actions a:visited,
+.action a:visited,
+.LV_invalid,
+.required .autocomplete,
+.autocomplete .notice,
+.autocomplete ul b,
+.warnings .tag:hover,
+.work .warning a.tag:hover,
+dd.warning.tags a:hover,
+.required,
+.error,
+.alert.flash,
+.notice,
+.comment_notice,
+.kudos_notice,
+ul.notes,
+.caution,
+.error,
+.comment_error,
+.kudos_error,
+.alert.flash,
+.caution {
+  color: var(--bg);
+}
+
+.splash .browse li a:before,
+.delete a,
+span.delete,
+.draggable,
+.droppable,
+span.requested,
+.nominations .rejected,
+a.work,
+.blurb ul.series li a:hover,
+.warnings .tag,
+.work .warning a.tag,
+.mods li,
+dl.stats dt,
+.notice a,
+blockquote.userstuff p a:hover,
+p.jump a:hover,
+p.kudos a:hover {
+  color: var(--bg2);
+}
+
+
+.splash .module h3 {
+  color: var(--color1);
+}
+
+.reading h4.viewed,
+#admin_users_table th a:hover,
+#header .heading a {
+  color: var(--color2);
+}
+
+.actions a:hover,
+.actions button:hover,
+.actions input:hover,
+.actions a:focus,
+.actions button:focus,
+.actions input:focus,
+label.action:hover,
+.action:hover,
+.action:focus {
+  color: var(--color3);
+}
+
+span.series .divider, 
+#footer .heading,
+.home .primary, 
+#header .primary .dropdown:hover a,
+a:hover,
+#header a,
+#header a:visited,
+#header .primary .open a,
+#header .primary .dropdown a:focus,
+input[type="submit"],
+.action:visited,
+.action a:link,
+span.unread,
+.replied,
+span.claimed,
+.actions span.defaulted,
+.comment h4.byline {
+  color: var(--color4);
+}
+
+header li,
+a:visited,
+#header .heading sup::before,
+#header .user a,
+#small_login .action,
+dt.warning.required label,
+fieldset dl dt.required label,
+a.cloud3,
+#admin_users_table th a:visited {
+  color: var(--color6);
+}
+
+header h1.heading a::before {
+  color: var(--color7)
+}
+
+body,
+.toggled form,
+.dynamic form,
+.secondary,
+.dropdown,
+#header .user a:hover,
+#header .user a:focus,
+#header .primary a,
+#dashboard a,
+#dashboard span,
+#footer,
+#footer a,
+input,
+textarea,
+input:focus,
+select:focus,
+textarea:focus,
+form dd.required,
+dl dt.title.required,
+dl.stats dd,
+fieldset.warnings ul li label,
+.autocomplete div.dropdown ul,
+.autocomplete .dropdown ul li:hover,
+.autocomplete .dropdown li.selected,
+fieldset.work.text legend.required,
+#modal.img a,
+.actions a,
+.actions a:link,
+.action,
+.action:link,
+.actions button,
+.actions input,
+input[type="submit"],
+button,
+.current,
+.actions label,
+a.tag,
+dl.stats dd::after,
+.listbox li.blurb,
+.listbox .landmark.heading,
+.listbox .tags .listbox,
+.listbox .lots li,
+.listbox .all li,
+.blurb h4 a:link,
+.blurb h4 img,
+form.search input[type="text"],
+#header #search input:focus,
+#header .menu li a,
+.filters .expander {
+  color: var(--font);
+}
+
+.listbox li.blurb {
+  border: 0;
+  box-shadow: 0 0 5px var(--font);
+}
+
+.splash .favorite a:hover,
+.splash .favorite a:focus,
+a,
+a:link,
+a:visited:hover,
+.commas li:after,
+.listbox .heading,
+.listbox > .heading,
+.listbox .heading a:visited,
+ul.series li a,
+.userstuff h2 {
+  color: var(--font);
+}
+
+            /*  --------- border radius ------------  */
+            
+
+.splash .favorite a:hover,
+.splash .favorite a:focus,
+.splash .favorite li:nth-of-type(odd) a:hover,
+.splash .favorite li:nth-of-type(odd) a:focus,
+#header .user a:hover,
+#header .user a:focus,
+#greeting a,
+#greeting .open a,
+#greeting .dropdown:hover a,
+#greeting .dropdown .menu a:hover,
+#header .primary a:hover,
+#dashboard a:hover {
+  border-radius: 0.825em 0.25em 0.825em 0;
+}
+
+#greeting img.icon,
+.autocomplete div.dropdown ul,
+.listbox,
+fieldset fieldset.listbox,
+.listbox .index,
+fieldset,
+form dl,
+fieldset dl dl,
+fieldset fieldset fieldset,
+fieldset fieldset dl dl,
+dd.hideme,
+form blockquote.userstuff {
+  border-radius: 10px;
+}                
+                
+#greeting img.icon {
+  margin: 0 3px 0 0;
+}
+
+h4.heading a,
+h5.fandoms.heading a.tag {
+  padding: 1px 4px;
+}
+
+h4.heading a:hover,
+h5.fandoms.heading a.tag:hover {
+  border-radius: 4px;
+  padding: 1px 4px;
+}
+
+h3.byline.heading a,
+.fandom.listbox.group ol.index.group li a,
+ul.series li a,
+dd.series span.series a.previous,
+dd.series span.position a,
+dd.series span.series a.next,
+ul li span.series a,
+h2.heading a.tag,
+ul.tags.commas.index.group li a.tag,
+.tag.home.profile p a,
+ul.menu li,
+dl.stats a {
+  padding: 1px 4px;
+}
+
+h3.byline.heading a:hover,
+.fandom.listbox.group ol.index.group li a:hover,
+ul.series li a:hover,
+dd.series span.series a.previous:hover,
+dd.series span.position a:hover,
+dd.series span.series a.next:hover,
+ul li span.series a:hover,
+dl.stats a:hover,
+h2.heading a.tag:hover,
+ul.tags.commas.index.group li a.tag:hover,
+.tag.home.profile p a:hover,
+ul.menu li a:hover {
+  border-radius: 4px;
+  padding: 1px 4px;
+}
+
+                /*  ----------- Font family ---------  */
+
+.toggled form,
+.dynamic form,
+.secondary,
+.dropdown,
+input,
+textarea,
+button {
+  font-family: "Architects Daughter", 'Lucida Grande';
+}
+
+heading,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.heading,
+#header .primary a,
+#dashboard a,
+#dashboard .current,
+#dashboard span,
+a.work,
+.bookmark .user .meta {
+  font-family: "Bangers", "Georgia";
+  letter-spacing: 4px;
+}
+
+.splash .news .meta,
+kbd,
+tt,
+code,
+var,
+pre,
+samp,
+.datecolor2e {
+  font-family: "Nixie One", monospace;
+}
+
+body,
+blockquote,
+pre,
+.heading .actions,
+.heading .action,
+.heading span.actions,
+span.unread,
+.replied,
+span.claimed,
+.actions span.defaulted,
+.prompt .blurb h6 {
+  font-family: "Architects Daughter", 'Lucida Grande';
+  font-size: 95%;
+  letter-spacing: 1px;
+}
+
+.userstuff p strong, .userstuff p b {
+  font-family: "Architects Daughter", 'Lucida Grande';
+  font-weight: 700;
+}
+
+.userstuff p em, .userstuff p i {
+  font-family: "Architects Daughter", 'Lucida Grande';
+  font-style: italic;
+}
+
+
+            /* ---- SITE SKIN CSS --- */
+
+/* ==basic layout== */
+
+li.blurb,
+fieldset,
+form dl {
+  border: 0;
+  box-shadow: 3px 3px 5px var(--bg2);
+  border-radius: 5px;
+  padding: 1em;
+  overflow: hidden;
+}
+
+p.kudos,
+.required-tags .rating-general-audience,
+.required-tags .rating-explicit,
+.required-tags .rating-mature,
+.required-tags .rating-teen,
+.required-tags .rating-notrated,
+.required-tags .category-femslash,
+.required-tags .category-gen,
+.required-tags .category-slash,
+.required-tags .category-het,
+.required-tags .category-multi,
+.required-tags .category-other,
+.required-tags .category-none,
+.required-tags .complete-no,
+.required-tags .complete-yes,
+.required-tags .warning-yes,
+.required-tags .warning-no,
+.required-tags .warning-choosenotto,
+.required-tags .external-work,
+.status .private .text,
+.status .public,
+.status .hidden,
+.status .rec,
+.status .count,
+.index .mystery .icon,
+.index .tagset .icon,
+.comment .icon .anonymous,
+.comment .icon .visitor,
+.abbreviated .icon .anonymous,
+.abbreviated .icon .visitor,
+.skins .primary .icon,
+.admin .primary .icon,
+.tagset .primary .icon,
+.collection.home .primary.header.module .icon,
+.collection .icon img[src="/images/skins/iconsets/default/icon_collection.png"],
+.collection.index .icon[src="/images/skins/iconsets/default/icon_collection.png"],
+a.rss span {
+  background-image: url("https://i.ibb.co/Cp7DXcLx/skin-symbols-red-hood.png") !important;
+  background-size: 200px 820px !important;
+}
+
+                /* MAIN PAGE */
+
+    /* HEADER BANNER */
+
+#header {
+  background-color: var(--bg2);
+  background-image: url("https://i.ibb.co/KxSHpGv4/Under-The-Red-Hood-Full-9.png"); 
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+#header .heading {
+  height: 14.375em;
+}
+
+/* FAVORITES, NEWS, SOCIAL, ETC */
+.splash {
+  margin: auto;
+  max-width: 78em;
+}
+
+.splash .module h3 {
+  border-bottom: 1px solid #c8c8c8;
+  font-size: 1.714em;
+}
+
+.splash span.link {
+  float: right;
+}
+
+.splash .link a {
+  font-size: 0.583em;
+}
+
+.splash .browse,
+.splash div.news {
+  width: 36%;
+}
+
+.splash .intro,
+.splash .social {
+  float: right;
+  width: 60%;
+}
+
+.splash .browse ul,
+.splash .browse li {
+  float: left;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.splash .browse li a,
+.splash .favorite a {
+  border-bottom: none;
+  display: block;
+}
+
+.splash .browse li {
+  margin: 0.375em 0;
+  padding: 0.375em 0;
+  width: 50%;
+}
+
+.splash .browse li a:before {
+  content: "\00BB";
+  padding: 0 0.25em 0 0;
+}
+
+.splash .browse li:nth-of-type(1),
+.splash .browse li:nth-of-type(2) {
+  margin-top: 0;
+}
+
+.splash .browse li:nth-of-type(odd) {
+  padding-right: 0.375em;
+}
+
+.splash .intro {
+  padding: 1em 0 2em;
+}
+
+.splash .intro h2 {
+  font-size: 2em;
+  line-height: 1.375;
+}
+
+.splash .intro .stats,
+.splash .parent {
+  text-align: center;
+}
+
+.splash .count {
+  font-weight: 700;
+}
+
+.splash .module div.account {
+  background: #eaeaea;
+  border: 1px solid #ccc;
+  border-radius: 0.5em;
+  box-sizing: border-box;
+}
+
+.splash .account .heading {
+  margin: 1em;
+}
+
+.splash .account p {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.splash .account ul {
+  margin-left: 4em;
+  margin-right: 1em;
+}
+
+.splash .account li {
+  list-style-type: disc;
+}
+
+.splash .account .actions {
+  float: none;
+  font-size: 1.143em;
+}
+
+.splash .favorite li {
+  margin: 0;
+}
+
+.splash .favorite a {
+  padding: 0.25em 0.375em;
+}
+
+.splash .news li {
+  border-bottom: 1px solid #eee;
+}
+
+.splash .news li:last-of-type {
+  border-bottom: none;
+}
+
+.splash .news .meta {
+  font-weight: normal;
+  font-size: 0.857em;
+  font-family: 'Monaco', 'Consolas', Courier, monospace;
+}
+
+.splash .news blockquote {
+  float: left;
+}
+
+.splash .jump {
+  text-align: right;
+}
+
+.splash .placeholder {
+  font-style: italic;
+}
+
+    /* marked for later */
+
+.splash .blurb blockquote {
+  margin: 0.643em auto;
+  text-indent: 1.5em;
+}
+
+    /* unread messages */
+
+.splash .comment .userstuff {
+  margin: 1em;
+}
+
+    /* social */
+
+.splash .social ul {
+  text-align: center;
+}
+
+.splash .social li {
+  display: inline-block;
+}
+
+    /* logged-in */
+
+.logged-in .splash > .module {
+  float: left;
+  margin: 0 1% 1.571em 1%;
+  width: 48%;
+}
+
+.logged-in .splash > div:nth-of-type(odd) {
+  clear: left;
+}
+
+    /* misc */
+
+.splash .module .module,
+.splash .dynamic,
+.splash .news blockquote {
+  margin: 0;
+  width: 100%;
+}
+
+blockquote.userstuff p,
+p.note {
+  text-indent: 1.5em;
+  text-align: justify;
+}
+
+/* --- NORMAL ELEMENTS --- */
+
+a:visited {
+  text-decoration: none;
+  border-bottom: 1px dashed;
+}
+
+a:active,
+a:focus,
+button:focus {
+  outline: 1px dotted;
+}
+
+header h1.heading a::before {
+  margin-left: 0.35em;
+  content: "HOLY ARCHIVE, BATMAN!";
+  text-shadow: 2px 2px 2px var(--color4);
+}
+
+#header h1.heading span {
+  display: none;
+}
+
+.home .primary {
+  margin: 0 0 0.643em;
+  min-height: 100px;
+}
+
+                /* HEADER */
+
+    /* logo and title */
+
+#header .menu,
+#small_login {
+  display: none;
+  padding: 0.25em 0;
+  position: absolute;
+  width: 20em;
+  z-index: 55;
+  box-shadow: 1px 1px 3px -1px #444;
+}
+
+    /*ACTION: dropdown*/
+
+#header .dropdown .menu a {
+  background: transparent;
+  display: block;
+  padding: 0.75em 0.5em 0.5em;
+}
+
+    /* login and greeting */
+
+#greeting .dropdown .menu a {
+  border-radius: 5px;
+}
+
+/* primary (Header) navigation */
+
+#header .primary {
+  padding: 0 0;
+  width: 100%;
+  box-shadow: inset 0 -6px 10px rgba(0, 0, 0, 0.35),
+    1px 1px 3px -1px rgba(0, 0, 0, 0.25),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.85);
+}
+
+#header .primary > li:first-of-type {
+  margin-left: 2em;
+}
+
+#header .primary a {
+  padding: 0.429em 0.75em;
+}
+
+#header .primary .menu a {
+  color: #111;
+  padding: 0.75em 0.5em 0.5em;
+}
+
+    /* search */
+
+#header .search {
+  float: right;
+  color: var(--color1);
+  margin-right: 0.25em;
+}
+
+#header #search input:focus {
+  outline: 1px dotted;
+}
+
+#header #search .text,
+#header #search .button {
+  border: 2px solid var(--bg);
+}
+
+#header #search .text {
+  margin: 0.2857em 0.429em;
+}
+
+input#general_search_autocomplete.text {
+  color: var(--color4);
+}
+
+#header #search .button {
+  margin: 0;
+}
+
+        /*CONTEXT: collections*/
+
+#header h2 {
+  border-top: 1px solid;
+  clear: both;
+  color: var(--color4);
+  display: block;
+  font-size: 1.714em;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0 0.375em;
+  text-shadow: none;
+}
+
+            /* DASHBOARD (Sidebar) */
+
+#dashboard {
+  padding: 0.5em;
+  margin-left: 0;
+}
+
+#dashboard a,
+#dashboard span {
+  white-space: normal;
+  vertical-align: middle;
+  height: auto;
+  margin: 0;
+  border: none;
+  word-wrap: break-word;
+  font-size: 90%;
+}
+
+#dashboard ul {
+  float: none;
+  display: block;
+  padding: 0.286em 0;
+  text-align: right;
+  border-top: 0 solid var(--color6);
+  position: relative;
+}
+
+#dashboard.own {
+  background: transparent;
+  border-top: 0 solid var(--color6);
+  border-bottom: 0 solid var(--color6);
+  opacity: 1.0;
+}
+
+#main.dashboard {
+  padding-left: 2em;
+}
+
+        /* FOOTER */
+
+#footer {
+  border-top: 2px solid;
+  float: left;
+  font-size: 0.75em;
+  position: relative;
+  padding: 0;
+  width: 100%;
+}
+
+#footer a {
+  display: inline;
+  border-bottom: 1px dotted;
+  line-height: 1.5;
+  white-space: normal;
+}
+
+#footer .heading {
+  display: block;
+  text-transform: uppercase;
+}
+
+            /* INTERACTIONS */
+
+fieldset,
+form dl,
+fieldset dl dl,
+fieldset fieldset fieldset,
+fieldset fieldset dl dl,
+dd.hideme,
+form blockquote.userstuff {
+  display: block;
+  margin: 0.643em;
+  padding: 0.643em;
+  box-shadow: inset 1px 0 5px var(--bg2);
+  border: 0;
+}
+
+fieldset dd dl,
+form .meta dd,
+fieldset dl fieldset dl,
+dd fieldset {
+  margin: 0 0.643em;
+}
+
+legend,
+input[type="hidden"] {
+  height: 0;
+  width: 0;
+  font-size: 0;
+  opacity: 0;
+  padding: 0;
+  margin: 0;
+}
+
+label {
+  margin-right: 0.375em;
+}
+
+input,
+textarea {
+  font-size: 100%;
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: inset 0 1px 2px var(--bg2);
+  height: 20px;
+}
+
+textarea {
+  min-height: 12em;
+}
+
+textarea.large {
+  height: 36em;
+}
+
+input[type="radio"] + label,
+input[type="checkbox"] + label {
+  padding-left: 1em;
+}
+
+select {
+  vertical-align: text-top;
+  width: 100%;
+  min-width: 10.5em;
+  border-radius: 5px;
+}
+
+.datecolor2e select {
+  width: 32.5%;
+}
+
+input[type="radio"],
+input[type="checkbox"],
+input[type="file"],
+input.number,
+p input,
+p select,
+.heading select,
+li select {
+  width: auto;
+  margin-right: 0.375em;
+}
+
+input.number {
+  width: 4em;
+}
+
+option,
+.actions option,
+form code {
+  display: block;
+}
+
+option:checked {
+  background: var(--color6);
+}
+
+form p {
+  clear: right;
+  margin: auto;
+  padding: 0.643em;
+}
+
+form dd ul {
+  text-align: justify;
+}
+
+form .notice {
+  box-shadow: none;
+}
+
+    /* LIVE VALIDATION */
+
+.LV_invalid {
+  border: 1px solid #04030F;
+  padding: 0.25em 0.375em;
+  box-shadow: 1px 1px 2px;
+  border-radius: 0.25em;
+}
+
+.LV_invalid_field,
+input.LV_invalid_field:hover,
+input.LV_invalid_field:active,
+textarea.LV_invalid_field:hover,
+textarea.LV_invalid_field:active {
+  border: 1px solid var(--bg);
+}
+
+.LV_invalid:before {
+  border-color: #903E60 transparent;
+  border-style: solid;
+  border-width: 0 0.643em 0.643em;
+  content: "";
+  left: 0.875em;
+  position: absolute;
+  top: -0.643em;
+}
+
+        /* AUTO COMPLETE */
+
+.autocomplete div.dropdown ul {
+  border: 1px solid var(--bg2);
+  padding: 0.125em;
+  line-height: 1.286;
+  display: block;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.autocomplete .dropdown ul li:hover,
+.autocomplete .dropdown li.selected {
+  background: top left var(--color2);
+}
+
+    /* MODAL DIALOGS (called by help links) */
+
+#modal-wrap:before,
+#modal {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#modal {
+  margin: 3% 0;
+  max-width: 800px;
+  min-width: 200px;
+  padding-bottom: 44px;
+  position: relative;
+  text-align: left;
+  width: 80%;
+  z-index: 501;
+  box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.2);
+  border: 0;
+}
+
+#modal .content {
+  border-bottom: 1px solid var(--bg2);
+  font-size: 0.875em;
+  overflow: auto;
+  padding: 1.5em;
+}
+
+    /*MODE: VERBOSE */
+
+form.verbose legend,
+.verbose form legend {
+  height: auto;
+  width: auto;
+  font-size: 100%;
+  padding: 0.5em;
+  border: 0;
+  box-shadow: 0 0 10px var(--bg);
+  opacity: 1;
+  border-radius: 5px;
+}
+
+    /* mods: SINGLE for prominent simple forms consisting of one text input, e.g., on the blocked user page */
+
+form.single fieldset {
+  background: transparent;
+  border: none;
+  box-shadow: 3px 3px 5px #ddd inset;
+}
+
+/* ACTIONS: buttons! */
+
+.actions a,
+.actions a:link,
+.action,
+.action:link,
+.actions button,
+.actions input,
+input[type="submit"],
+button,
+.current,
+.actions label {
+  width: auto;
+  font-size: 100%;
+  line-height: 1.286;
+  height: 1.286em;
+  vertical-align: middle;
+  display: inline-block;
+  padding: 0.25em 0.75em;
+  white-space: nowrap;
+  overflow: visible;
+  position: relative;
+  text-decoration: none;
+  border: none;
+  border-bottom: 1px solid #EAE7E8;
+  border-radius: 0.25em;
+  box-shadow: 3px 3px 10px var(--font) offset;
+}
+
+button {
+  box-sizing: content-box;
+}
+
+label.action {
+  padding: 0.15em 0.375em;
+}
+
+input[type="submit"] {
+  height: auto;
+  white-space: normal;
+}
+
+li.collection.picture.blurb.group .header.module.group ul.mods.commas li a,
+.fandom.listbox.group ol.index.group li a {
+  border-bottom: dotted 1px;
+}
+
+.actions a:hover,
+.actions button:hover,
+.actions input:hover,
+.actions a:focus,
+.actions button:focus,
+.actions input:focus,
+label.action:hover,
+.action:hover,
+.action:focus {
+  border-top: 1px solid #999;
+  border-left: 1px solid #999;
+  box-shadow: 3px 3px 5px var(--font) inset;
+}
+
+.actions a:active,
+.current,
+a.current,
+a:link.current,
+.current a:visited {
+  border-color: var(--font);
+  box-shadow: inset 1px 1px 3px var(--font);
+}
+
+
+                /  *==TYPES OF DATA, GROUPS OF DATA */
+
+            /* TAGS!!!! */
+
+    /* TAG SEPARATOR */
+        
+.commas li:after {
+  content: " ●";
+}
+
+.commas li {
+  display: inline;
+}
+
+.commas li:last-child:after,
+.commas li:only-child:after {
+  content: none;
+}
+
+/*GROUP CLOUD */
+
+ul.cloud {
+  margin: 2em auto;
+  text-align: center;
+  line-height: 2;
+}
+
+a.cloud1 {
+  color: #7d2323;
+  font-size: 0.625em;
+  font-weight: 100;
+}
+
+a.cloud2 {
+  color: #9a1c1c;
+  font-size: 0.75em;
+  font-weight: 200;
+}
+
+a.cloud3 {
+  color: #fa0404;
+  font-size: 0.875em;
+  font-weight: 300;
+}
+
+a.cloud4 {
+  color: #f76666;
+  font-size: 1em;
+  font-weight: 400;
+}
+
+a.cloud5 {
+  color: #f4afaf;
+  font-size: 1.125em;
+  font-weight: 500;
+}
+
+a.cloud6 {
+  color: #c17878;
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+a.cloud7 {
+  color: #794b4b;
+  font-size: 1.875em;
+  font-weight: 700;
+}
+
+a.cloud8 {
+  color: #ecc1c1;
+  font-size: 2.25em;
+  font-weight: 800;
+}
+
+    /* GROUPS: WRAPPER, MODULE, INDEX */
+    
+#outer {
+  background: var(--bg);
+}
+
+    /*TYPES*/
+    
+/* rss */
+
+a.rss span {
+  background: url("https://i.ibb.co/Cp7DXcLx/skin-symbols-red-hood.png") no-repeat -153px -270px;
+  padding-left: 16px;
+}
+
+/* Work Title link */
+
+a.work {
+  font-size: 1.143em;
+  line-height: 1.125;
+  margin: 0.5em 0;
+}
+
+/* TAGS FOR REAL */
+
+.relationships .tag,
+.work .relationships a.tag,
+dd.relationship.tags a {
+  color: #08cd30 !important;
+  background: transparent;
+  border: #08cd30 dotted 1px;
+  border-radius: 4px;
+  padding: 1px 4px;
+}
+
+dt.warning.tags a:hover {
+  background: var(--color7);
+  color: var(--color1);
+  border-radius: 4px;
+  padding: 1px 4px;
+}
+
+dt.relationship.tags {
+  color: #08cd30 !important;
+}
+
+.relationships .tag:hover,
+.work .relationships a.tag:hover,
+dd.relationship.tags a:hover {
+  color: var(--bg) !important;
+  background: #08cd30;
+  border: #08cd30 solid 1px;
+}
+
+.characters .tag,
+.work .characters a.tag,
+dd.character.tags a {
+  color: #cbc81c !important;
+  background: transparent;
+  border-radius: 4px;
+  padding: 1px 4px;
+  border: #cbc81c dotted 1px;
+}
+
+dt.character.tags {
+  color: #cbc81c !important;
+}
+
+.characters .tag:hover,
+.work .characters a.tag:hover,
+dd.character.tags a:hover {
+  color: var(--bg) !important;
+  background: #cbc81c;
+  border: #cbc81c solid 1px;
+}
+
+.freeforms .tag,
+.work .freeforms a.tag,
+dd.freeform.tags a {
+  color: #2798fa !important;
+  background: transparent;
+  border-radius: 4px;
+  padding: 1px 4px;
+  border: #2798fa dotted 1px;
+}
+
+dt.freeform.tags {
+  color: #2798fa !important;
+}
+
+.freeforms .tag:hover,
+.work .freeforms a.tag:hover,
+dd.freeform.tags a:hover {
+  color: var(--bg) !important;
+  background: #2798fa;
+  border: #2798fa solid 1px;
+}
+
+dt.rating,
+dt.category,
+dt.fandom,
+dt.language,
+dt.series,
+dt.stats,
+.preface h3 {
+  color: var(--color6)!important;
+}
+
+.warnings .tag,
+dt.warning.tags a,
+.relationships .tag,
+dt.relationship.tags,
+.characters .tag,
+dt.character.tags,
+.freeforms .tag,
+dt.freeform.tags {
+  font-size: 75%;
+}
+
+.blurb .tags .warnings a,
+dd.warning a {
+  background: var(--color7);
+  border-radius: 4px;
+  padding: 1px 4px;
+}
+
+dt.warning.tags a,
+dd.warning.tags a {
+  color: var(--color7);
+}
+
+.blurb .tags .warnings a:hover,
+dd.warning a:hover {
+  color: var(--color7) !important;
+  background: transparent;
+  border: var(--color7) solid 1px;
+}
+
+.actions .reindex a {
+  border-bottom: 3px solid #903E60;
+}
+
+    /* Prev/Next arrows for series */
+
+span.series .previous + .divider:before {
+  content: "\0020\25CF";
+}
+
+span.series .position + .divider:after {
+  content: "\25CF\0020";
+}
+
+    /* KUDOS */
+    
+p.kudos {
+  background: url("/images/imageset.png") no-repeat -115px -570px;
+  padding: 0.5em 0.5em 0.5em 60px;
+  margin: 2em 0;
+  min-height: 50px;
+  word-wrap: break-word;
+  text-align: justify;
+}
+
+.icon {
+  border-radius: 15%;
+  border: none;
+  box-shadow: 2px 2px 12px var(--color2);
+}
+
+
+    /* Stats Icons */
+
+dl.stats a,
+dl.stats a:visited:hover,
+p.kudos a {
+  border-bottom: 1px dotted;
+}
+
+dl.stats {
+  margin-left: -.25em;
+  margin-right: -.25em;
+}
+
+/* hide the text before the stats */
+dl.stats dt:not(.skins dl.stats dt) {
+  display: none;
+}
+
+/* general settings for stats icons */
+dl.stats dd:not(.skins dl.stats dd)::before {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  margin-bottom: -.35em;
+  margin-right: 5px;
+  content: "";
+  background-size: 6em 13.5em !important;
+  background-repeat: no-repeat !important;
+  background-image: url(https://i.ibb.co/LhxQJngw/icons-skin-redhood.png);
+}
+
+/* language */
+dl.stats dd.language::before {
+  background-position: 0 -.75em;
+}
+
+/* Words*/
+dl.stats dd.words::before,
+.series .stats dd:first-of-type:not(dd.language)::before,
+.bookmark.group:not(:has(.external-work)) dl.stats dd:first-of-type:not(dd.language)::before {
+  background-position: -1.5em -.75em;
+}
+
+/* Chapters */
+dl.stats dd.chapters::before {
+  background-position: -3em -.75em;
+}
+
+/* Comments */
+dl.stats dd.comments::before {
+  background-position: -4.5em -.75em;
+}
+
+/* Kudos */
+dl.stats dd.kudos::before {
+  background-position: 0 -3em;
+}
+
+/* Bookmarks */
+dl.stats dd.bookmarks::before,
+dl.stats dd:has(a[href$=bookmarks])::before {
+  background-position: -1.5em -3em;
+}
+
+/* Hits */
+dl.stats dd.hits::before {
+  background-position: -3em -3em;
+}
+
+/* works in series */
+.series .stats dd:nth-of-type(2):not(dd.words)::before,
+.bookmark.group:not(:has(.external-work)) dl.stats dd:nth-of-type(2):not(dd.words)::before,
+dl.stats dd:has(a[href$=works])::before {
+  background-position: -4.5em -3em;
+}
+
+/* date published */
+dl.work dl.stats dd.published::before {
+  background-position: 0 -5.25em;
+}
+
+/* date updated/completed */
+dl.work dl.stats dd.status::before {
+  background-position: -1.5em -5.25em;
+}
+
+/* completion status (series) */
+.series.meta.group .stats dd:nth-of-type(3)::before {
+  background-position: -3em -5.25em;
+}
+
+/* collections */
+dl.stats dd.collections::before {
+  background-position: -4.5em -5.25em;
+}
+
+/* sub-collections*/
+.collection dl.stats dd:has(a[href$=collections])::before {
+  background-position: 0 -7.5em;
+}
+
+/* fandoms */
+dl.stats dd:has(a[href$=fandoms])::before,
+.tagset .stats dd:nth-of-type(1)::before {
+  background-position: -1.5em -7.5em;
+}
+
+/* collections: bookmarked items */
+.collection dl.stats dd:has(a[href$=bookmarks])::before {
+  background-position: -3em -7.5em;
+}
+
+/* collections: promts/requests */
+dl.stats dd:has(a[href$=requests])::before {
+  background-position: -4.5em -7.5em;
+}
+
+/* related works (external bookmarks) */
+.group li:has(.external-work) dl.stats dd:not(:first-of-type):last-of-type::before {
+  background-position: 0 -9.75em;
+}
+
+/* subscriptions (statistics page) */
+.statistics dl.stats dd.subscriptions::before {
+  background-position: -1.5em -9.75em;
+}
+
+/* comment threads (statistics page) */
+.statistics dl.stats dd.comments::before {
+  background-position: -3em -9.75em;
+}
+
+/* tagsets: characters */
+.tagset .stats dd:nth-of-type(2)::before {
+  background-position: -4.5em -9.75em;
+}
+
+/* tagests: relationships */
+.tagset .stats dd:nth-of-type(3)::before {
+  background-position: 0 -12em;
+}
+
+/* tagsets: additional and freeform tags*/
+.tagset .stats dd:nth-of-type(4)::before,
+.tagset .meta .stats dd:nth-of-type(4)::before {
+  background-position: -1.5em -12em;
+}
+
+
+        /* stats hover text */
+
+dl.stats dd::after {
+  display: none;
+  position: absolute;
+  z-index: 99999;
+  margin: 2em 0 0 -3.5em;
+  padding: .1em .25em;
+  border-radius: .25em;
+  font-size: .85em;
+  line-height: 1.3em;
+  text-align: center;
+}
+
+dl.stats dd:hover::after {
+  display: inline-block;
+  top: 79%;
+}
+
+dl.stats dd.language::after {
+  content: "Language";
+}
+
+dl.stats dd.words::after,
+.series .stats dd:first-of-type:not(dd.language)::after,
+.bookmark.group:not(:has(.external-work)) dl.stats dd:first-of-type:not(dd.language)::after {
+  content: "Words";
+}
+
+.series .stats dd:nth-of-type(2):not(dd.words)::after,
+.bookmark.group:not(:has(.external-work)) dl.stats dd:nth-of-type(2):not(dd.words)::after,
+dl.stats dd:has(a[href$=works])::after {
+  content: "Works";
+}
+
+dl.stats dd.chapters::after {
+  content: "Chapters";
+}
+
+dl.stats dd.comments::after {
+  content: "Comments";
+}
+
+dl.stats dd.kudos::after {
+  content: "Kudos";
+}
+
+dl.stats dd.bookmarks::after,
+dl.stats dd:has(a[href$=bookmarks])::after {
+  content: "Bookmarks";
+}
+
+.group li:has(.external-work) dl.stats dd:not(:first-of-type):last-of-type::after {
+  content: "Related Works";
+}
+
+dl.stats dd.hits::after {
+  content: "Hits";
+}
+
+dl.stats dd.collections::after {
+  content: "Collections";
+}
+
+dl.work dl.stats dd.published::after {
+  content: "Published";
+}
+
+dl.work dl.stats dd.status::after,
+.series.meta.group .stats dd:nth-of-type(3)::after {
+  content: "Updated";
+}
+
+.series.meta.group .stats dd:nth-of-type(3)::after {
+  content: "Complete";
+}
+
+.statistics dl.stats dd.subscriptions::after {
+  content: "Subscriptions";
+}
+
+.statistics dl.stats dd.comments::after {
+  content: "Comment Threads";
+}
+
+dl.stats dd:has(a[href$=fandoms])::after,
+.tagset .stats dd:nth-of-type(1)::after {
+  content: "Fandoms";
+}
+
+.tagset .stats dd:nth-of-type(2)::after {
+  content: "Characters";
+}
+
+.tagset .stats dd:nth-of-type(3)::after {
+  content: "Relationships";
+}
+
+.tagset .stats dd:nth-of-type(4)::after {
+  content: "Additional Tags";
+}
+
+.tagset .meta .stats dd:nth-of-type(4)::after {
+  content: "Freeforms";
+}
+
+dl.stats dd:has(a[href$=requests])::after {
+  content: "Prompts";
+}
+
+.collection dl.stats dd:has(a[href$=bookmarks])::after {
+  content: "Bookmarked Items";
+}
+
+.collection dl.stats dd:has(a[href$=collections])::after {
+  content: "Challenges/Subcollections";
+}
+
+                /* LISTBOX */
+
+.listbox {
+  clear: right;
+  padding: 0;
+  margin: 0.643em auto;
+  overflow: hidden;
+  box-shadow: 3px 3px 5px var(--bg2);
+  border-color: var(--bg2);
+}
+
+fieldset fieldset.listbox {
+  clear: right;
+  padding: 0;
+  margin: 0.643em auto;
+  overflow: hidden;
+  box-shadow: 3px 3px 5px var(--bg2);
+  border: 0;
+}
+
+.listbox .heading {
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+.listbox .index {
+  width: auto;
+  padding: 0.643em;
+  margin: 0 3px;
+  float: none;
+  clear: right;
+  box-shadow: 3px 3px 5px var(--bg);
+  border: 0;
+  background: var(--bg)
+}
+
+/* META */
+
+dl.meta {
+  clear: right;
+  padding: 1.286em 0.75em;
+  position: relative;
+  overflow: hidden;
+  text-align: justify;
+}
+
+.meta dt {
+  min-width: 10.5em;
+  width: 20%;
+  float: left;
+  clear: left;
+  margin: 2px auto auto auto;
+}
+
+.meta dd {
+  width: 72.5%;
+  float: left;
+  margin: 0 0 0.643em;
+  font-size: 85%;
+}
+
+dt.rating, 
+dt.category, 
+dt.fandom, 
+dt.language, 
+dt.series, 
+dt.stats {
+  font-size: 85%;
+}
+
+            /* BLURB */
+
+.blurb ul.tags.commas {
+  text-align: justify;
+}
+
+li.blurb .tags {
+  padding: 0 10px 0 0;
+  max-height: 8.5em;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: var(--color4) var(--color2);
+}
+
+.blurb .header .heading,
+.blurb .header ul {
+  display: block;
+  background: transparent;
+}
+
+.blurb h4 a:link,
+.blurb h4 img {
+  vertical-align: bottom;
+}
+
+.blurb .heading {
+  display: block;
+  line-height: 135%;
+}
+
+/* ==START icon block rules*/
+
+.blurb ul.required-tags {
+  position: absolute;
+  top: 0;
+  width: 60px;
+  margin: 0;
+  box-shadow: -3px -3px 3px var(--color6);
+  border-radius: 5px;
+  padding: 1px;
+}
+
+.blurb ul.required-tags li,
+.blurb ul.required-tags li a,
+.blurb ul.required-tags li span {
+  display: block;
+  width: 24px;
+  height: 24px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.blurb ul.required-tags li {
+  margin: 0 1px 0 5px;
+}
+
+.blurb ul.required-tags li+li+li,
+.blurb ul.required-tags li+li+li+li {
+  position: absolute;
+  left: 28px;
+}
+
+.blurb ul.required-tags li+li+li {
+  top: 0;
+}
+
+.blurb ul.required-tags li+li+li+li {
+  top: 24px;
+}
+
+/* keeps the outline to the proper size in Firefox and Opera */
+.blurb ul.required-tags li a:focus {
+  overflow: hidden;
+}
+
+.blurb blockquote {
+  margin: 0.643em auto;
+  text-align: justify;
+  text-indent: 1.5em;
+}
+
+.notes.module p.jump a,
+#series.series.module ul li span.series a,
+dl.work.meta.group dd.series span.series a,
+ul.series li a,
+p.kudos a {
+  border-bottom: dotted 1px;
+}
+
+            /* PICTURE (along with "index" and "blurb" for indices where we have icon pictures, eg collections, users, skins, instead of the 4-icon list) */
+
+li.collection.picture.blurb.group .header.module.group .icon {
+  background: url("https://i.ibb.co/Cp7DXcLx/skin-symbols-red-hood.png") -120px -945px;
+  margin: 12px 0 0 -2px;
+  top: -14px;
+}
+
+.collection.home .primary.header.module .icon {
+  background: url("https://i.ibb.co/Cp7DXcLx/skin-symbols-red-hood.png") -100px -991px;
+  margin: -4px 0 0 -1px;
+}
+
+.picture .header {
+  border-bottom: 1px solid #ccc;
+}
+
+.index .skins .icon {
+  background: url("https://i.ibb.co/5gzKWbCS/div-icon-red-hood-small.png") 0;
+  margin: 0 0 20px 0;
+}
+
+picture .icon img,
+.index .skins .icon {
+  background: url("https://i.ibb.co/5gzKWbCS/div-icon-red-hood-small.png") 0;
+  height: 55px;
+  width: 55px;
+  margin: 0 0 20px 0;
+}
+
+.index .mystery .icon {
+  background: url("/images/imageset.png") -109px -515px;
+}
+
+.index .tag .icon,
+.index .tagset .icon {
+  background: url("/images/imageset.png") -54px -570px;
+}
+
+.picture .icon img {
+  position: absolute;
+  top: 0;
+  height: 55px;
+  width: 55px;
+  background-repeat: no-repeat;
+}
+
+.index .picture .icon {
+  position: absolute;
+  top: -14px;
+  height: 55px;
+  width: 55px;
+  background-repeat: no-repeat;
+}
+
+.status .public {
+  background: url("/images/imageset.png") -124px -48px;
+}
+
+.status .rec {
+  background: url("/images/imageset.png") -100px -48px;
+}
+
+        /*various little mods*/
+
+/* mod: ITEM
+blurbs on the manage collection items pages, mostly reseting styles inherited from interactions (forms)
+*/
+
+
+.item .blurb blockquote,
+.item dl.stats {
+  margin: 0.643em auto;
+  padding: 0;
+  border: none;
+  background: transparent;
+  box-shadow: none;
+  text-indent: 1.5em;
+}
+
+dl.meta {
+  border: 0;
+  box-shadow: 3px 3px 5px var(--bg2);
+}
+
+/* PREFACE */
+
+.preface h2.title {
+  display: block;
+  border-bottom: 0;
+  clear: right;
+  text-transform: uppercase;
+}
+
+/* Work/Chapter body's font size*/
+
+#chapters .userstuff {
+  font-size: 110%;
+}
+
+            /* COMMENTS */
+
+div.comment,
+li.comment {
+  position: relative;
+  box-shadow: 3px 3px 5px var(--bg2);
+  overflow: visible;
+  text-align: start;
+  border: none;
+}
+
+.comment div.icon {
+  float: left;
+  margin: -1.5625em 0.5625em 0.5625em 0;
+}
+
+.comment .icon .anonymous {
+  background: url("/images/imageset.png") no-repeat 1px -720px;
+  display: block;
+}
+
+.comment .icon .visitor {
+  background: url("/images/imageset.png") no-repeat 0px -625px;
+  display: block;
+}
+
+.comment h4.byline a {
+  color: #000;
+}
+
+            /* HOME */
+
+    /*primary header icons */
+
+.primary .icon {
+  position: absolute;
+  top: -3px;
+  left: 2px;
+}
+
+.skins .primary .icon {
+  background: url("https://i.ibb.co/Cp7DXcLx/skin-symbols-red-hood.png") 0px -171px;
+}
+
+.admin .primary .icon {
+  background: url("https://i.ibb.co/Cp7DXcLx/skin-symbols-red-hood.png") -200px -171px;
+}
+
+.tag .primary .icon,
+.tagset .primary .icon {
+  background: url("https://i.ibb.co/Cp7DXcLx/skin-symbols-red-hood.png") -40px -520px;
+}
+
+.wrangler .primary .icon {
+  background: none;
+}
+
+            /* SEARCH/BROWSE */
+
+    /* INDEX PAGES (with filters)*/
+
+.search [role="tooltip"] {
+  background: var(--color4);
+  border: 0;
+  box-shadow: 3px 3px 5px var(--bg2);
+  padding: 0.15em;
+  position: absolute;
+  left: -999em;
+  font-size: 0.75em;
+  z-index: 1;
+}
+
+.filters .indicator:before {
+  background: var(--bg2);
+  border: 1px solid var(--color5);
+  background-image: none;
+}
+
+.filters [type="checkbox"]:checked + .indicator:before {
+  background: var(--color1);
+  background-image: none;
+  color: #fff;
+}
+
+.filters [type="radio"]:checked + .indicator:before {
+  background: var(--bg2);
+  background-image: none;
+}
+
+.filters .exclude [type="checkbox"]:checked + .indicator:before {
+  background: var(--color1);
+  background-image: none;
+  color: #fff;
+}
+
+.filters .expander,
+.filters .expanded .expander {
+  filter: brightness(0) saturate(100%) invert(89%) sepia(3%) saturate(179%) hue-rotate(299deg) brightness(104%) contrast(95%);
+}
+
+.filters input:checked + .indicator + span,
+.filters input:checked + .indicator + span a {
+  background: var(--color1);
+  color: #EAE7E8;
+  border-radius: 4px;
+  padding: 1px 4px;
+  font-weight: 700;
+}
+
+/*==ZONE: TAGS, TAGSETS, and TAG WRANGLING */ 
+
+
+/* USERSTUFF */
+
+.userstuff p,
+.userstuff details {
+  margin: 1.286em auto;
+  text-indent: 0.5in;
+  text-align: justify;
+  padding: 0 2em;
+}
+
+/* STATS CHARTS */
+
+#stat_chart g[clip-path^=url] > g:nth-of-type(2) rect:nth-of-type(1) {
+  filter: saturate(215%) hue-rotate(290deg) brightness(92%) contrast(110%) opacity(30%);
+}
+
+#stat_chart g[clip-path^=url] > g:nth-of-type(2) rect:nth-of-type(2) {
+  filter: saturate(215%) hue-rotate(185deg) brightness(160%) contrast(110%) opacity(30%);
+}
+
+#stat_chart g[clip-path^=url] > g:nth-of-type(2) rect:nth-of-type(3) {
+  filter: saturate(215%) hue-rotate(40deg) brightness(160%) contrast(110%) opacity(30%);
+}
+
+#stat_chart g[clip-path^=url] > g:nth-of-type(2) rect:nth-of-type(4) {
+  filter: saturate(315%) hue-rotate(320deg) brightness(180%) contrast(110%) opacity(30%);
+}
+
+#stat_chart g[clip-path^=url] > g:nth-of-type(2) rect:nth-of-type(5) {
+  filter: saturate(215%) hue-rotate(120deg) brightness(160%) contrast(110%) opacity(30%);
+}
+
+.notice,
+.event .userstuff,
+.comment_notice,
+.kudos_notice,
+ul.notes,
+.caution,
+.error,
+.comment_error,
+.kudos_error,
+.alert.flash {
+  box-shadow: 3px 3px 5px var(--color5);
+  margin: 0.643em auto;
+  padding: 0.25em 0.375em;
+  clear: right;
+  border-radius: 0.25em;
+  word-wrap: break-word;
+  border: 0;
+}
+
+/* ADMIN ANNOUNCEMENT BANNERS */ 
+
+.event .userstuff {
+  background: #700;
+  border-color: #600;
+  color: #fff;
+}
+
+
+/* thermometer JavaScript widget for fundraising drives
+progress indicator colors are set in applicationicon js */
+.announcement .thermometer .track {
+  box-shadow: 3px 3px 5px var(--font);
+  height: 1.25em;
+  margin: 0 auto;
+  position: relative;
+}
+
+        /* TABLES AND LISTS */
+
+th,
+col.name {
+  box-shadow: 3px 3px 1px var(--font);
+  padding: 0.15em 0.5em 0.25em;
+  vertical-align: top;
+}
