@@ -21,6 +21,9 @@ The following fonts must be installed on your computer/device (Downloadable from
 
 Go to FONT FAMILY section in the line code \#450 and change the fonts to the ones of your liking. I recommend leaving \"font-family: "Nixie One", monospace" alone because that's only for the work's update date and such, but you're free to change it as well if you desire.
 
-### CHANGING ANYTHING ELSE
+### CHAGING THE BANNER 
+
+
+###CHANGING ANYTHING ELSE
 
 Feel free to change colors or anything you like to make it better for you
