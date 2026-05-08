@@ -15,7 +15,7 @@ Ao3 Site Skin inspired by Jason Todd/Red Hood
 
 ### USING FEATURED FONTS
 
-The following fonts must be installed on your computer/device (Downloadable from Google Fonts or similar sites). Otherwise, you won't see any changing from the typical font on the archive.
+Keep in mind that a font has to be installed on your operating system to work, so be sure to install on your computer/device the following (Downloadable from Google Fonts or similar sites):
 1. Architects Daughter
 2. Bangers
 
