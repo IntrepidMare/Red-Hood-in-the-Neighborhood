@@ -11,7 +11,19 @@ Ao3 Site Skin inspired by Jason Todd/Red Hood
 3. On the Skins page, select the "Create Site Skin" button towards the top right of the page on desktop (or below the My Site Skins heading on mobile). 
 4. Enter the CSS code. 
 5. Enter a title for your skin (must be unique, so you can add your username or a number to the title).
-6. Select "Submit" at the bottom... And voila! You have a new skin!
+6. Select "Submit" at the bottom.
+7. Finally, click Use... And voila! You have a new skin!
+
+### CUSTOM FEAUTURES
+
+- Custom title and fonts
+- Stats icons with hover text
+- Border around tags
+- Different color for each type of tags 
+- Shortening long tag field (scrolling)
+- Banner image
+- Bigger font in chapters
+- First line indent across the site
 
 ### USING FEATURED FONTS
 
