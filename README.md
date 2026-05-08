@@ -14,7 +14,7 @@ Ao3 Site Skin inspired by Jason Todd/Red Hood
 6. Select "Submit" at the bottom.
 7. Finally, click Use... And voila! You have a new skin!
 
-### CUSTOM FEAUTURES
+### CUSTOM FEATURES
 
 - Custom title and fonts
 - Stats icons with hover text
