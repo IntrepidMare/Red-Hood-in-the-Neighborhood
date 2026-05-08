@@ -1926,7 +1926,7 @@ li.collection.picture.blurb.group .header.module.group .icon {
 
 .collection.home .primary.header.module .icon {
   background: url("https://i.ibb.co/Cp7DXcLx/skin-symbols-red-hood.png") -100px -991px;
-  margin: -4px 0 0 -1px;
+  margin: 2px 0 0 -3px;
 }
 
 .picture .header {
