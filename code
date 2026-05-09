@@ -2128,28 +2128,6 @@ li.comment {
   padding: 0 2em;
 }
 
-/* STATS CHARTS */
-
-#stat_chart g[clip-path^=url] > g:nth-of-type(2) rect:nth-of-type(1) {
-  filter: saturate(215%) hue-rotate(290deg) brightness(92%) contrast(110%) opacity(30%);
-}
-
-#stat_chart g[clip-path^=url] > g:nth-of-type(2) rect:nth-of-type(2) {
-  filter: saturate(215%) hue-rotate(185deg) brightness(160%) contrast(110%) opacity(30%);
-}
-
-#stat_chart g[clip-path^=url] > g:nth-of-type(2) rect:nth-of-type(3) {
-  filter: saturate(215%) hue-rotate(40deg) brightness(160%) contrast(110%) opacity(30%);
-}
-
-#stat_chart g[clip-path^=url] > g:nth-of-type(2) rect:nth-of-type(4) {
-  filter: saturate(315%) hue-rotate(320deg) brightness(180%) contrast(110%) opacity(30%);
-}
-
-#stat_chart g[clip-path^=url] > g:nth-of-type(2) rect:nth-of-type(5) {
-  filter: saturate(215%) hue-rotate(120deg) brightness(160%) contrast(110%) opacity(30%);
-}
-
 .notice,
 .event .userstuff,
 .comment_notice,
