@@ -48,3 +48,8 @@ Go to HEADER BANNER under the MAIN PAGE section (line \#580), and change the url
 ### CHANGING ANYTHING ELSE
 
 Please DO copy and reuse and modify this code any way you like!
+
+
+###### Credits: 
+
+Icons by FontAwesome (https://fontawesome.com/)
