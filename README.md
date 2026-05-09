@@ -12,7 +12,7 @@ Ao3 Site Skin inspired by Jason Todd/Red Hood
 4. Enter the CSS code. 
 5. Enter a title for your skin (must be unique, so you can add your username or a number to the title).
 6. Select "Submit" at the bottom.
-7. Finally, click Use... And voila! You have a new skin!
+7. Finally, scroll down to the bottom of the page and click on the "Use" button... Voila! Now you have a new skin!
 
 ### CUSTOM FEATURES
 
