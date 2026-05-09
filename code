@@ -471,7 +471,7 @@ h6,
 #dashboard span,
 a.work,
 .bookmark .user .meta {
-  font-family: "Bangers", "Georgia";
+  font-family: "Bangers", "Georgia", serif;
   letter-spacing: 4px;
 }
 
