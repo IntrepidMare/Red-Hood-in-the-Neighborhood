@@ -454,7 +454,7 @@ ul.menu li a:hover {
 input,
 textarea,
 button {
-  font-family: "Architects Daughter", 'Lucida Grande';
+  font-family: "Architects Daughter",  'Lucida Grande', 'Lucida Sans Unicode', Verdana, Helvetica, sans-serif, 'GNU Unifont';
 }
 
 heading,
@@ -497,19 +497,9 @@ span.unread,
 span.claimed,
 .actions span.defaulted,
 .prompt .blurb h6 {
-  font-family: "Architects Daughter", 'Lucida Grande';
+  font-family: "Architects Daughter",  'Lucida Grande', 'Lucida Sans Unicode', Verdana, Helvetica, sans-serif, 'GNU Unifont';
   font-size: 95%;
   letter-spacing: 1px;
-}
-
-.userstuff p strong, .userstuff p b {
-  font-family: "Architects Daughter", 'Lucida Grande';
-  font-weight: 700;
-}
-
-.userstuff p em, .userstuff p i {
-  font-family: "Architects Daughter", 'Lucida Grande';
-  font-style: italic;
 }
 
 
