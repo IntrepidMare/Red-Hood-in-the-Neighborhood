@@ -6,13 +6,14 @@ Ao3 Site Skin inspired by Jason Todd/Red Hood
 
 ### HOW TO APPLY A SITE SKIN ON AO3
 
-1. Go to your dashboard.
-2. Select "Skins" from the menu found in the sidebar or at the top on a mobile device.  
-3. On the Skins page, select the "Create Site Skin" button towards the top right of the page on desktop (or below the My Site Skins heading on mobile). 
-4. Enter the CSS code. 
-5. Enter a title for your skin (must be unique, so you can add your username or a number to the title).
-6. Select "Submit" at the bottom.
-7. Finally, scroll down to the bottom of the page and click on the "Use" button... Voila! Now you have a new skin!
+1. Copy the CSS code.
+2. Go to your dashboard on Ao3.
+3. Select "Skins" from the menu found in the sidebar or at the top on a mobile device.  
+4. On the Skins page, select the "Create Site Skin" button towards the top right of the page on desktop (or below the My Site Skins heading on mobile). 
+5. Paste the CSS code. 
+6. Enter a title for your skin (must be unique, so you can add your username, a number, or change the title).
+7. Select "Submit" at the bottom.
+8. Once you get the confirmation that your skin was successfully created, scroll down to the bottom of the page and click on the "Use" button... Voila! Now you have a new awesome skin!
 
 ### CUSTOM FEATURES
 
