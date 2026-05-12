@@ -497,7 +497,7 @@ span.unread,
 span.claimed,
 .actions span.defaulted,
 .prompt .blurb h6 {
-  font-family: "Architects Daughter",  'Lucida Grande', 'Lucida Sans Unicode', Verdana, Helvetica, sans-serif, 'GNU Unifont';
+  font-family: "Architects Daughter", 'Lucida Grande', 'Lucida Sans Unicode', Verdana, Helvetica, sans-serif, 'GNU Unifont';
   font-size: 95%;
   letter-spacing: 1px;
 }
@@ -558,15 +558,6 @@ a.rss span {
   background-size: 200px 820px !important;
 }
 
-#header .logo {
-  float: left;
-  height: 42px;
-  background: url("https://i.ibb.co/CK813g3r/red-hood-logo-small.png");
-  width: 0 !important;
-  height: 0 !important;
-  padding: 40px 55px 0px 45px;
-  background-repeat: no-repeat;
-}
                 /* MAIN PAGE */
 
     /* HEADER BANNER */
@@ -809,6 +800,16 @@ header h1.heading a::before {
                 /* HEADER */
 
     /* logo and title */
+    
+#header .logo {
+  float: left;
+  height: 42px;
+  background: url("https://i.ibb.co/CK813g3r/red-hood-logo-small.png");
+  width: 0 !important;
+  height: 0 !important;
+  padding: 40px 55px 0px 45px;
+  background-repeat: no-repeat;
+}
 
 #header .menu,
 #small_login {
@@ -1239,6 +1240,10 @@ a:link.current,
             /* TAGS!!!! */
 
     /* TAG SEPARATOR */
+    
+.commas li::after {
+  content: none;
+}
         
 .commas li:after {
   content: " ●";
@@ -1411,6 +1416,7 @@ dt.rating,
 dt.category,
 dt.fandom,
 dt.language,
+dt.collections,
 dt.series,
 dt.stats,
 .preface h3 {
@@ -1805,12 +1811,14 @@ dl.meta {
   float: left;
   margin: 0 0 0.643em;
   font-size: 85%;
+  line-height: 2;
 }
 
 dt.rating, 
 dt.category, 
 dt.fandom, 
 dt.language, 
+dt.collections,
 dt.series, 
 dt.stats {
   font-size: 85%;
@@ -1828,6 +1836,7 @@ li.blurb .tags {
   overflow-y: auto;
   scrollbar-width: thin;
   scrollbar-color: var(--color4) var(--color2);
+  line-height: 1.6;
 }
 
 .blurb .header .heading,
