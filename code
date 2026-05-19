@@ -507,7 +507,6 @@ span.claimed,
 
 /* ==basic layout== */
 
-li.blurb,
 fieldset,
 form dl {
   border: 0;
@@ -515,6 +514,14 @@ form dl {
   border-radius: 5px;
   padding: 1em;
   overflow: hidden;
+}
+
+li.blurb { 
+  border: 0;
+  box-shadow: 3px 3px 5px var(--bg2);
+  border-radius: 5px;
+  padding: 1em;
+  overflow: visible !important; 
 }
 
 p.kudos,
